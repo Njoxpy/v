@@ -108,3 +108,11 @@ Or run the app on a different port:
 ```
 
 A more permanent option is to set `server.port=8081` in `src/main/resources/application.properties`.
+
+## error
+- 1 Cannot perform refactoring.
+  ```md
+  Caret should be positioned inside class to be refactored
+  ```
+
+to fix make sure the cursor is into the class you want to refactor
